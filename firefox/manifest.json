@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Medium to Freedium",
+    "version": "1.0",
+    "description": "Prepends https://freedium.cfd/ to Medium URLs.",
+    "permissions": ["tabs", "webRequest", "webRequestBlocking", "*://*.medium.com/*"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
