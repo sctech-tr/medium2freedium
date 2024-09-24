@@ -5,8 +5,6 @@
   "description": "Prepends https://freedium.cfd/ to Medium URLs.",
   "permissions": [
     "declarativeNetRequest",
-    "webRequest",
-    "webRequestBlocking",
     "tabs"
   ],
   "background": {
@@ -17,5 +15,14 @@
   },
   "host_permissions": [
     "*://*.medium.com/*"
-  ]
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
 }
