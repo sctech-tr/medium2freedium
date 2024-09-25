@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Medium to Freedium",
+    "version": "1.0",
+    "description": "Appends https://freedium.cfd/ to Medium URLs.",
+    "permissions": [
+      "declarativeNetRequest"
+    ],
+    "host_permissions": [
+      "*://medium.com/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "declarative_net_request": {
+      "rule_resources": [
+        {
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "rules.json"
+        }
+      ]
+    }
+  }
+  
