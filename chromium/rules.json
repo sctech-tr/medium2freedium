@@ -5,7 +5,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "regexSubstitution": "https://freedium.cfd/\\0"
+        "regexSubstitution": "https://freedium-mirror.cfd/\\0"
       }
     },
     "condition": {

@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Medium to Freedium",
-  "version": "1.0",
-  "description": "Prepends https://freedium.cfd/ to Medium URLs.",
+  "version": "1.1",
+  "description": "Adds https://freedium-mirror.cfd/ to Medium URLs.",
   "permissions": ["tabs", "webRequest", "webRequestBlocking", "*://*.medium.com/*"],
   "background": {
     "scripts": ["background.js"]
@@ -12,7 +12,7 @@
   },
   "applications": {
     "gecko": {
-      "id": "medium-to-freedium@sctech.mooo.com"
+      "id": "{54d80c0d-ccca-4113-8ed2-eeedca322a60}"
     }
   }
 }

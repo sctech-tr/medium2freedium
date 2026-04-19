@@ -1,5 +1,5 @@
 # medium2freedium
-appends https://freedium.cfd/ to medium articles. supports firefox and chromium.
+adds https://freedium-mirror.cfd/ to medium articles. supports firefox and chromium.
 ## how can i install it?
 ### firefox:
 [click here](firefox_install.md)

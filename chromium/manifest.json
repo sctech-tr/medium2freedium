@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Medium to Freedium",
-    "version": "1.0",
-    "description": "Appends https://freedium.cfd/ to Medium URLs.",
+    "version": "1.1",
+    "description": "Appends https://freedium-mirror.cfd/ to Medium URLs.",
     "permissions": [
       "declarativeNetRequest"
     ],
